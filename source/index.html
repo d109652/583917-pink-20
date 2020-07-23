@@ -6,8 +6,8 @@
   </head>
   <body class="page__body">
     <header>
-      <a class="page-header__logo">
-        <img src="img/logotype-mobile.svg" width="74" height="23" alt="pink">
+      <a class="page__logo">
+        <img class="page__logo-image" src="img/logotype-mobile.svg" width="74" height="23" alt="pink">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
@@ -33,35 +33,44 @@
                 главная
               </a>
             </li>
-            <li class="site-list__item">
-              <a href="#">
-                HTML Academy
-              </a>
-            </li>
           </ul>
         </div>
       </nav>
     </header>
 
     <main>
-      <span class="slogan">
+      <h1 class="page-title page-title--whight">
         Взгляните на жизнь иначе!
-      </span>
+      </h1>
 
-      <img src="https://via.placeholder.com/320x286" width="320" height="286" alt="hand-with-smartfon" />
-      <a class="link-to-app" href="#">Скачать приложение</a>
+      <img class="main__background-image" src="https://via.placeholder.com/320x462" width="320" height="462" alt="background"/>
+
+      <img class="main__image" src="https://via.placeholder.com/320x286" width="320" height="286" alt="hand-with-smartfon" />
+
+      <section class="applications">
+
+        <a class="applications__link-to-app" href="#">Скачать приложение</a>
+
+        <div class="applications__logo">
+          <img class="applications__logo-apple" src="https://via.placeholder.com/47x56" width="47" height="56" alt="apple"/>
+          <img class="applications__logo-android" src="https://via.placeholder.com/43x47" width="43" height="47" alt="android"/>
+          <img class="applications__logo-microsoft" src="https://via.placeholder.com/42x40" width="42" height="40" alt="microsoft"/>
+        </div>
+
+        <p class="applications__comment">
+          Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
+        </p>
+
+      </section>
+
       <section class="offers">
 
-             <h2 class="visually-hidden">Предложения</h2>
-
-        <span class="slogan">
-          <p>
-            Устали от серости мегаполиса?
-          </p>
-          <p>
-            Нам есть что вам предложить!
-          </p>
-        </span>
+        <h1 class="page-title">
+          Устали от серости мегаполиса?
+        </h1>
+        <h1 class="page-title">
+          Нам есть что вам предложить!
+        </h1>
 
         <ul class="offers__list">
           <li class="offers__item">
@@ -75,20 +84,156 @@
             <h3 class="offers__title">Меняет мир вокруг</h3>
             <p class="offers__description">
               Сделайте снимок и украсьте его смайликом или текстовой подписью,
-               чтобы усилить эффект
+              чтобы усилить эффект
             </p>
           </li>
           <li class="offers__item">
             <h3 class="offers__title">Заводит новых друзей</h3>
             <p class="offers__description">
               Ставьте лайки, комментируйте, делитесь фотографиями с друзьями
-               и заводите новых
+              и заводите новых
             </p>
           </li>
         </ul>
+        <img class="offers__image" src="https://via.placeholder.com/157x320" width="157" height="320" alt="smartfon-with-smile" />
       </section>
 
-      <img src="https://via.placeholder.com/157x320" width="157" height="320" alt="smartfon-with-smile" />
+      <section class="reviews">
+        <div class="reviews__wrapper slider">
+          <blockquote class="reviews__item slider__item">
+            <cite class="reviews__author">
+              Николай Петров
+            </cite>
+            <p class="reviews__text">
+              «Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи!
+              А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»
+            </p>
+          </blockquote>
+
+          <p class="reviews__toggles slider__toggles">
+            <button class="slider__toggle slider__toggle--current" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+         </p>
+
+        </div>
+      </section>
+
+      <section class="tariff">
+        <div class="tariff__wrapper slider">
+          <blockquote class="tariff__item slider__item">
+            <span>Хит</span>
+            <h2 class="tariff__name">СТАНДАРТ</h2>
+            <span class="tariff__price">3,99 USD</span>
+            <table>
+              <tr>
+                <td>
+                  Розовый фильтр
+                </td>
+                <td>
+                  <img width="31" height="21" />
+                </td>
+                <td>
+                  Смайлики
+                </td>
+                <td>
+                  <img width="31" height="21" />
+                </td>
+                <td>
+                  Комментарии
+                </td>
+                <td>
+                  <img width="27" height="27" />
+                </td>
+              </tr>
+            </table>
+          </blockquote>
+
+          <p class="reviews__toggles slider__toggles">
+            <button class="slider__toggle slider__toggle--current" type="button">1</button>
+            <button class="slider__toggle" type="button">2</button>
+            <button class="slider__toggle" type="button">3</button>
+         </p>
+
+        </div>
+      </section class="contacts__text">
+        <h1 class="page-title">
+          Остались вопросы?
+          Свяжитесь с нами!
+        </h1>
+        <b></b>
+        <ul>
+          <li>
+            <b class="contacts__text">Звоните:</b>
+            <span class="contacts__value">+7 (812) 555-66-66</span>
+          </li>
+          <li>
+            <b class="contacts__text">Пишите:</b>
+            <span class="contacts__value">mail@htmlacademy.ru</span>
+          </li>
+          <li>
+            <b class="contacts__text"></b>
+            <span class="contacts__value">
+              ул. Большая Конюшенная, 19/8
+            </span>
+          </li>
+        </ul>
+        <map class="contacts__map">
+          <img class="contacts__image-map" src="https://via.placeholder.com/320x200"
+           width="320" height="200" alt="image-map" />
+           <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M18 0C21.5601 0 25.0402 1.05568 28.0003 3.03355C30.9604 5.01141 33.2675 7.82263 34.6298
+            11.1117C35.9922 14.4008 36.3487 18.02 35.6541 21.5116C34.9596 25.0033 33.2453 28.2106 30.7279
+            30.7279C28.2106 33.2453 25.0033 34.9596 21.5116 35.6541C18.02 36.3487 14.4008 35.9922 11.1117
+             \34.6298C7.82263 33.2675 5.01141 30.9604 3.03355 28.0003C1.05568 25.0402 0 21.5601 0 18C0 13.2261
+            1.89642 8.64773 5.27208 5.27208C8.64773 1.89642 13.2261 0 18 0V0Z" fill="white"/>
+           </svg>
+           <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <path d="M8.01017 0C9.59155 0.00201066 11.1369 0.472655 12.4509 1.35248C13.7649 2.2323 14.7887
+             3.48183 15.393 4.94323C15.9972 6.40462 16.1548 8.01231 15.8458 9.56321C15.5368 11.1141 14.7751
+             12.5386 13.6568 13.6568C12.5386 14.7751 11.1141 15.5368 9.56321 15.8458C8.01231 16.1548 6.40462
+             15.9972 4.94323 15.393C3.48183 14.7887 2.2323 13.7649 1.35248 12.4509C0.472655 11.1369 0.00201066
+             9.59155 0 8.01017C0 5.88574 0.843926 3.84832 2.34612 2.34612C3.84832 0.843926 5.88574 0 8.01017 0Z" fill="#D22856"/>
+           </svg>
+
+        </map>
     </main>
   </body>
+
+  <footer class="footer">
+    <img src="img/glasses-mobile.svg" width="74" height="23" alt="glasses">
+    <img src="img/logotype-mobile.svg" width="74" height="23" alt="pink">
+
+    <ul  class="socials">
+      <li class="social__item">
+        <a class="social__link social__link--twitter" href="#" aria-label="twitter pink">
+          <img src="img/t.svg" width="48" height="48" alt="twitter">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--facebook" href="#" aria-label="facebook pink">
+          <img src="img/t.svg" width="48" height="48" alt="facebook">
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--youtube" href="#" aria-label="youtube pink">
+          <img src="img/t.svg" width="48" height="48" alt="youtube">
+        </a>
+      </li>
+    </ul>
+
+    <div class="site-creator">
+      <span class="site-creator__text">
+        Разработано
+      </span>
+        <a href="https://htmlacademy.ru/intensive/htmlcss" class="site-creator__link" title="htmlacademy">
+        <svg xmlns="http://www.w3.org/2000/svg" width="27" height="34" viewBox="0 0 60 60">
+          <path fill="#2E368F" d="M30.2 5h-.2l-19.7 2.1v36.2l19.7 11.7 19.7-11.7v-36.2l-19.5-2.1zm17
+           36.8l-17.2 10.2-17.2-10.2v-14.8l17.1 10.2v1.8l-11.7-7v1.8l11.8 7.1v1.9l-11.8-7v1.8l11.8 7
+           11.9-7.1v-7.6l5.3-3.2v15.1zm-.1-17l-4.7 2.8-2.2 1.3-10.3-6.1v1.8l8.8 5.3h-.1l-.2.1-1.3.7-7.
+           3-4.3v1.8l5.8 3.4-1.4.9-4.3-2.6v1.8l2.9 1.7-2.9 1.7-17-10.1 17-10.2 17.2 10zm.1-1.8l-17.3-10
+           .2-17.1 10.2v-13.6l17.2-1.8 17.2 1.8v13.6z"/></svg>
+        </a>
+    </div>
+  </footer>
 </html>
