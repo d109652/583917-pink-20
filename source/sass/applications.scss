@@ -1,0 +1,33 @@
+.applications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #1d2631;
+}
+
+.applications__link-to-app {
+  color: #fff;
+  text-decoration: none;
+  border: 3px solid #fff;
+  box-sizing: border-box;
+  border-radius: 29px;
+  padding: 21px 38px;
+}
+
+.applications__logo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.applications__comment {
+  width: 280px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #fff;
+}
