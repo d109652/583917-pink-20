@@ -1,10 +1,19 @@
 
 
-@import "main-nav.scss";
-@import "variable.scss";
-@import "common.scss";
-@import "page-title.scss";
-@import "main.scss";
-@import "applications.scss";
-@import "offers.scss";
-@import "mixin.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/variable.scss";
+@import "blocks/common.scss";
+@import "blocks/page-title.scss";
+@import "blocks/main.scss";
+@import "blocks/applications.scss";
+@import "blocks/offers.scss";
+@import "blocks/mixin.scss";
+@import "blocks/reviews.scss";
+@import "blocks/slider.scss";
+@import "blocks/tariff.scss";
+@import "blocks/contacts.scss";
+@import "blocks/socials.scss";
+@import "blocks/form.scss";
+@import "blocks/photo-post.scss";
+@import "blocks/photo-editor.scss";
+@import "blocks/button.scss";
