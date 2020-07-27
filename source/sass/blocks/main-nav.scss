@@ -1,13 +1,15 @@
 .main-nav {
-  background-color: #283645;
+  background-color: hsl(211, 27%, 21%);
 }
 
 .main-nav__list {
-  @include list();
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .main-nav__item {
-  box-shadow: 0px 1px 0px #000000, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 1px 0px #000, inset 0px 1px 0px rgba(255, 255, 255, 0.15);
   padding-top: 23px;
   padding-bottom: 23px;
   text-align: center;
