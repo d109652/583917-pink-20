@@ -1,0 +1,32 @@
+.applications {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background: #1d2631;
+}
+
+.applications__link-to-app {
+  color: #ffffff;
+  text-decoration: none;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+  border-radius: 29px;
+  padding: 21px 38px;
+}
+
+.applications__logo-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.applications__comment {
+  width: 280px;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}

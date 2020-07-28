@@ -1,0 +1,39 @@
+.main-nav {
+  background-color: hsl(211, 27%, 21%);
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.main-nav__item {
+  box-shadow: 0 1px 0 #000000, inset 0 1px 0 rgba(255, 255, 255, 0.15);
+  padding-top: 23px;
+  padding-bottom: 23px;
+  text-align: center;
+}
+
+.main-nav__active {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: #ffffff;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}
+
+.main-nav__link {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 32px;
+  text-decoration: none;
+  color: #ffffff;
+  padding-top: 23px;
+  padding-bottom: 23px;
+}

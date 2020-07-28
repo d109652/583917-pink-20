@@ -1,0 +1,20 @@
+@mixin text-baisic {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+@mixin page-title {
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 1.2em;
+}
+
+@mixin withoutline {
+  text-decoration: none;
+}
+
+@mixin list-styl {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}

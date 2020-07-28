@@ -1,0 +1,44 @@
+.photo-post {
+  background-color: #f2f2f2;
+  width: 280px;
+}
+
+.photo-post__sticker {
+  background-color: #d22856;
+  color: #ffffff;
+  padding: 12px 18px;
+  text-align: center;
+  vertical-align: baseline;
+  display: inline-block;
+  position: absolute;
+}
+
+.photo-post__name {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.photo-post__time {
+  font-weight: lighter;
+  font-size: 12px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.photo-post__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #283645;
+}
+
+.photo-post__like {
+  font-size: 12px;
+  line-height: 24px;
+  color: #d22856;
+}
+
+//.photo-post__like::before {
+//  content: url("../img/icon-heart.svg");
+//}
