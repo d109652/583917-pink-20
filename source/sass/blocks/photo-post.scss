@@ -1,4 +1,10 @@
 .photo-post {
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
+
+.photo-post__item {
   background-color: #f2f2f2;
   width: 280px;
 }

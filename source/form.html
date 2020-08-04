@@ -49,15 +49,17 @@
         выиграть ценный приз — 1000 миль на вашу бонусную карту!
       </h2>
       <form class="form" action="https://echo.htmlacademy.ru" method="get">
-        <label class="form__label">ФАМИЛИЯ:
-          <input class="form__text" type="text" value="Укажите фамилию *" />
-        </label>
-        <label>ИМЯ:
-          <input class="form__text" type="text" value="Введите ваше имя *" />
-        </label>
-        <label>ОТЧЕСТВО:
-          <input class="form__text" type="text" value="Ну и отчество тоже" />
-        </label>
+        <fieldset class="form__fieldset">
+          <label class="form__label">ФАМИЛИЯ:
+            <input class="form__text" type="text" value="Укажите фамилию *" />
+          </label>
+          <label  class="form__label">ИМЯ:
+            <input class="form__text" type="text" value="Введите ваше имя *" />
+          </label>
+          <label  class="form__label">ОТЧЕСТВО:
+            <input class="form__text" type="text" value="Ну и отчество тоже" />
+          </label>
+        </fieldset>
 
         <fieldset class="form__fieldset">
           <legend class="form__legend">
@@ -102,13 +104,14 @@
             </li>
           </ul>
         </fieldset>
-
-        <label class="form__label">НОМЕР ТЕЛЕФОНА
-          <input class="form__text" type="text" value="Номер, пожалуйста" />
-        </label>
-        <label class="form__label">АДРЕС ПОЧТЫ
-          <input class="form__text" type="text" value="Введите почту *" />
-        </label>
+        <fieldset class="form__fieldset">
+          <label class="form__label">НОМЕР ТЕЛЕФОНА
+            <input class="form__text" type="text" value="Номер, пожалуйста" />
+          </label>
+          <label class="form__label">АДРЕС ПОЧТЫ
+            <input class="form__text" type="text" value="Введите почту *" />
+          </label>
+        </fieldset>
 
         <fieldset class="form__fieldset">
           <legend class="form__legend">
@@ -116,15 +119,15 @@
             путешествовали?
           </legend>
           <label>
-            <input class="form__radio" type="radio" checked />
+            <input class="form__radio" name="radio-app" type="radio" checked />
             <span class="form__indicator"></span>Pink для iOS
           </label>
           <label>
-            <input class="form__radio" type="radio"/>
+            <input class="form__radio" name="radio-app" type="radio"/>
             <span class="form__indicator"></span>Pink на Android
           </label>
           <label>
-            <input class="form__radio" type="radio"/>
+            <input class="form__radio" name="radio-app" type="radio"/>
             <span class="form__indicator"></span>Windows Phone
           </label>
         </fieldset>

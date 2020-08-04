@@ -1,10 +1,18 @@
 .reviews__author {
+  font-style: normal;
+  text-align: center;
   font-size: 18px;
   line-height: 30px;
   font-weight: bold;
 }
 
 .reviews__text {
+  font-style: normal;
+  text-align: center;
   font-size: 14px;
   line-height: 30px;
+}
+
+.reviews {
+  background-color: #ffffff;
 }
