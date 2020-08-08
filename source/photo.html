@@ -211,9 +211,11 @@
           </h3>
           <form class="photo-editor__form" action="https://echo.htmlacademy.ru" method="get">
             <img class="photo-editor__photo" src="https://via.placeholder.com/280x374" width="280" height="374" alt="photo"/>
-            <label class="photo-editor__crop"></label>
-            <label class="photo-editor__paint"></label>
-            <label class="photo-editor__color"></label>
+            <label class="photo-editor__crop"><input type="radio" name="photo-editor__radio"/></label>
+            <label class="photo-editor__paint"><input type="radio" name="photo-editor__radio"/></label>
+            <label class="photo-editor__color"><input type="radio" name="photo-editor__radio"/></label>
+            <input class="photo-editor__range" type="range"/>
+            <input class="photo-editor__range" type="range"/>
             <input class="photo-editor__range" type="range"/>
             <button type="submit" class="button button--red">Запостить</button>
             <button type="reset" class="button button--grey">Отмена</button>
